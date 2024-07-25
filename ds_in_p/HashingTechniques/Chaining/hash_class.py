@@ -1,4 +1,4 @@
-# A hashing technique (Chaining: using Linked Lists) to avoid collisions. This is categorized under open addressing as we are using extra space due to the linked lists.
+# A hashing technique (Chaining: using Linked Lists) to avoid collisions. This is categorized under open hashing as we are using extra space due to the linked lists.
 
 # Analysis: 
 
