@@ -9,6 +9,8 @@
 # However, if we have keys that are (5,15,25,30,35) then all of them are going to be mapped at the same index and this is a problem. Therefore, we should 
 # choose a hash function such that we dont have any of these problems.
 
+from node_class import Node
+
 class Hash_Table:
   def __init__ (self, size = 10):
     self.hash_table = [None] * size
