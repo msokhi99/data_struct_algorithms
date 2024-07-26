@@ -1,6 +1,7 @@
 # Hashing Technique (Open Addressing -> Linear Probing). This does not consume any extra space. However, we need to make sure that the loading factor (lambda)
 # is <= 0.5. Because of this the drawback is that half of the hash table is left vacant. Also, deleting in a hash table using linear probing is extremely 
-# difficult and not efficient. If you really want to delete, we can set a flag or use the rehashing technique (However, not recommended).
+# difficult and not efficient. If you really want to delete, we can set a flag or use the rehashing technique (However, not recommended). Another drawback is that
+# this problem may cause clustering of elements (primary clustering) which will be inefficient for searching.
 
 # Time Complexities: 
 
