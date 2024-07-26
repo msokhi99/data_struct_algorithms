@@ -4,7 +4,7 @@
 
 # Suppose we have n keys (let's say 100) and the size of the hash table is 10. Then, the loading factor (lambda) is n/size = 100/10 = 10.
 # This means, that we are assuming all of our 100 keys are uniformly going to be distributed across all the indices (so each index will have 10 keys).
-# Hence, for a successful search: T = 1 + lambda/2 and for unsuccessfull search: T = 1 + lambda.
+# Hence, for an avg. successful search: T = 1 + lambda/2 and for an avg. unsuccessfull search: T = 1 + lambda.
 
 # However, if we have keys that are (5,15,25,30,35) then all of them are going to be mapped at the same index and this is a problem. Therefore, we should 
 # choose a hash function such that we dont have any of these problems.
