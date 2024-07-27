@@ -6,6 +6,8 @@
 # Notice that you may not slant the container.
 
 # Solution:
+# Time Complexity: O(n).
+# Space Complexity: O(1).
 
 class Solution:
     def maxArea(self, height: List[int]) -> int:
