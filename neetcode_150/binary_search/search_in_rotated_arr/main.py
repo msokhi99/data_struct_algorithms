@@ -25,11 +25,11 @@ class Solution:
       return middle_in
     if nums[left_in]<=nums[middle_in]:
       if nums[left_in]<=target<nums[middle_in]:
-        return self.rec_bin_serch(nums,left_in,middle_in-1,target)
+        return self.rec_bin_search(nums,left_in,middle_in-1,target)
       else:
-        return self.rec_bin_serch(nums,middle_in+1,right_in,target)
+        return self.rec_bin_search(nums,middle_in+1,right_in,target)
     else:
       if nums[middle_in]<=target<=nums[right_in]:
-         return self.rec_bin_serch(nums,middle_in+1,right_in,target)
+         return self.rec_bin_search(nums,middle_in+1,right_in,target)
       else:
-         return self.rec_bin_serch(nums,left_in,middle_in-1,target)
+         return self.rec_bin_search(nums,left_in,middle_in-1,target)
