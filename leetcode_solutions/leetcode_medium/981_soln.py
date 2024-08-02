@@ -28,7 +28,7 @@ class TimeMap:
     while left_in<=right_in:
       middle_in=(left_in+right_in)//2
       if self.store[key][middle_in][1]<=timestamp:
-        result=self.store[key][middle_in][1]
+        result=self.store[key][middle_in][0]
         left_in=middle_in+1
       else:
         right_in=middle_in-1
