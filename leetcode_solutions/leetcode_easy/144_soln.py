@@ -19,7 +19,7 @@ class Solution:
 # Iterative Solution: 
 
 class Solution:
-  def post_order_traversal(self, root:List[TreeNode])->List[int]:
+  def pre_order_traversal(self, root:List[TreeNode])->List[int]:
     result=[]
     stack=[]
 
