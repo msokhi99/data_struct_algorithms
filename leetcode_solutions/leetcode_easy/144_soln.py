@@ -15,3 +15,20 @@ class Solution:
       self._recurse(node.left,result)
       self._recurse(node.right,result)
     return result
+
+# Iterative Solution: 
+
+class Solution:
+  def post_order_traversal(self, root:List[TreeNode])->List[int]:
+    result=[]
+    stack=[]
+
+    if root:
+      stack.append(root)
+
+    while stack:
+      node=stack.pop()
+      if node:
+        result.append(node.val)
+        stack.append(node.right)
+        stack.append(node.left)
