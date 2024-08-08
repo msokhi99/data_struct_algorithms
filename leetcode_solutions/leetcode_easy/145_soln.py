@@ -29,8 +29,8 @@ class Solution:
       node=stack.pop()
       if node:
         result.append(node.val)
-        stack.append(node.right)
         stack.append(node.left)
+        stack.append(node.right)
 
-    return result
+    return result[::-1]
 
