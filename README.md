@@ -1,1 +1,1 @@
-DSA Implementation in C++ and Python + solutions to Leetcode problems.
+DSA Implementation in C++ and Python and Leetcode solutions.
